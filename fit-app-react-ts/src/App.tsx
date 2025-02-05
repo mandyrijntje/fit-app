@@ -1,11 +1,11 @@
+import Navbar from "@/scenes/navbar";
 
 function App() {
-
   return (
     <div className="app bg-gray-20">
-      App goes here
+      <Navbar />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
